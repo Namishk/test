@@ -159,7 +159,13 @@ main h1{
 }
 
 #main-content button{
-    display: none;
+    display: block;
+    min-width: 50vw;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0 auto 1rem auto;
+    border: none;
+    background-color: #facc4e;
 }
 
 #facilities{
@@ -265,14 +271,8 @@ main h1{
     }
 
    #main-content button{
-        display: block;
         min-width: 25vw;
-        font-size: 2rem;
-        padding: 1rem;
-        margin: 0 auto 1rem auto;
-        border: none;
-        background-color: #facc4e;
-   }
+       }
 
    #main-content button:hover{
         background-color: #fde6a6;
