@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Thrilleasy</title>
+</head>
+<body>
+    <section id="topbar">
+        <div id="mobNav">
+            <img src="./assets/hamburger.svg" id="hamburger" onclick="openMenu()">
+            <img src="./assets/logo.png" alt="Thrilleasy company logo" id="logo">
+            <img src="./assets/icons8-search.svg" alt="search icon" id="search">
+        </div>
+        <nav id="menu-items">
+            <ul>
+                <li>Lorem</li>
+                <li>Lorem</li>
+                <li>Lorem</li>
+                <li>Lorem</li>
+                <li>Lorem</li>
+            </ul>
+        </nav>
+        
+    </section>
+    <main>
+    <section id="image-display">
+        <div id="display-image-container"><img src="" id="display-image"></div>
+        <div id="image-icons">
+            <img src="./assets/rafting.jpg" alt="rafting image" class="img" onclick="imageDisplay(1)">
+            <img src="./assets/rafting-1.jpg" alt="rafting image" class="img" onclick="imageDisplay(3)">
+            <img src="./assets/rafting.jpg" alt="rafting image" class="img" onclick="imageDisplay(5)">
+            <img src="./assets/rafting-1.jpg" alt="rafting image" class="img" onclick="imageDisplay(7)">
+            <img src="./assets/rafting.jpg" alt="rafting image" class="img" onclick="imageDisplay(9)">
+        </div>
+        <p id="photos-btn" onclick="showCourosal()">Photos</p>
+    </section>
+    <section id="main-content">
+        <h1>River Rafting on Indus River</h1>
+
+        <div id="info-panel">
+            <div id="rating">
+                <img src="./assets/week1 -30.png" alt="Srar icon">
+                <figcaption>5.0</figcaption>
+                <p>(86 Reviews)</p>
+            </div>
+            <div id="info">
+                <div id="hours">
+                    <img src="./assets/Clock.png" alt="Clock icon">
+                    <p>3 hours</p>
+                </div>
+                <div id="location">
+                    <img src="./assets/location.png" alt="Location icon">
+                    <p>Ladakh</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="price-details">
+            <p id="price-old">Starting from <del>INR 199,900</del></p>
+            <p id="price">INR 13800</p>
+            <p id="price-cap">per Adult</p>
+        </div>
+        <button>
+            Book Now
+        </button>
+        <div id="facilities">
+            <div class="facility"><img src="./assets/transport.png" alt="Transport included"></div>
+            <div class="facility"><img src="./assets/meals.png" alt="Meals included"></div>
+            <div class="facility"><img src="./assets/cashback.png" alt="Cashback avilable"></div>
+            <div class="facility"><img src="./assets/guide.png" alt="Guide avilable"></div>
+        </div>
+    </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
